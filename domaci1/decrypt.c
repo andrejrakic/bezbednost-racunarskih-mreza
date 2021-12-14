@@ -29,7 +29,7 @@ int izracunajDeterminantu() {
 		determinanta += (kljuc[0][i] * (kljuc[1][(i+1)%3] * kljuc[2][(i+2)%3] - kljuc[1][(i+2)%3] * kljuc[2][(i+1)%3]));
 	}
 
-  determinanta %= 30;
+  determinanta = moduo30(determinanta);
 
   return 0;
 }

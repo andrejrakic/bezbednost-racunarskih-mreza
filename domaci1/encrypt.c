@@ -18,7 +18,7 @@ int ucitajKljuc() {
 		determinanta += (kljuc[0][i] * (kljuc[1][(i+1)%3] * kljuc[2][(i+2)%3] - kljuc[1][(i+2)%3] * kljuc[2][(i+1)%3]));
 	}
 
-  determinanta %= 30;
+  determinanta = moduo30(determinanta);
 
   printf("Kljuc: \n");
 	for(i = 0; i < 3; i++) {
@@ -57,7 +57,7 @@ int enkodiraj() {
   }
 
   for(i = 0; i < 3; i++) {
-		enkodirana[i][0] %= 30;
+    enkodirana[i][0] = moduo30(enkodirana[i][0]);
 	}
 
   printf("Enkodirana rec: \n");
