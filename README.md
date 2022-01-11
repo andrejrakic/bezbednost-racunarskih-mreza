@@ -1,4 +1,4 @@
-# bezbednost-racunarskih-mreza
+# Bezbednost racunarskih mreza
 
 Compile & Run
 
