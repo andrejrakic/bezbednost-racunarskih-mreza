@@ -1,6 +1,6 @@
 # Bezbednost racunarskih mreza
 
-Compile & Run
+### Compile & Run
 
 ```bash
 gcc ./main.c -o main.out -w
